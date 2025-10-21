@@ -121,6 +121,8 @@ h2 {
 .info {
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .info figure {
@@ -129,18 +131,17 @@ h2 {
 }
 
 .info img {
-    width: 100%;
+    width: 250px;
     display: block;
 }
 
 .info-img {
-    width: 200px;
-    height: 90%;
     border: 5px solid #3882f6;
     border-radius: 1em;
     padding: 0;
     margin: 0;
     overflow: hidden;
+    flex-grow: 1;
 }
 
 .info img:hover {
